@@ -31,7 +31,7 @@ Object reconstructions before and after adversarial training:
 ![rec](figs/Prelim.png)
 
 
-### Cite this article
+### Citation
 ```
 @ARTICLE{Georgescu-TPAMI-2021, 
   author={Georgescu, Mariana Iuliana and Ionescu, Radu and Khan, Fahad Shahbaz and Popescu, Marius and Shah, Mubarak}, 
