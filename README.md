@@ -1,8 +1,8 @@
 ## A Background-Agnostic Framework with Adversarial Training for Abnormal Event Detection in Video
-Mariana-Iuliana Georgescu, Radu Tudor Ionescu, Fahad Shahbaz Khan, Marius Popescu and Mubarak Shah
+Mariana-Iuliana Georgescu, Radu Tudor Ionescu, Fahad Shahbaz Khan, Marius Popescu and Mubarak Shah.
 IEEE Transactions on Pattern Analysis and Machine Intelligence, 2021
 
-Arxiv url: https://arxiv.org/abs/2008.12328
+Arxiv URL: https://arxiv.org/abs/2008.12328
 
 This is the official repository of "A Background-Agnostic Framework with Adversarial Training for Abnormal Event Detection in Video".
 
@@ -29,5 +29,17 @@ This is the pipeline of our framework:
 
 Object reconstructions before and after adversarial training:
 ![rec](figs/Prelim.png)
+
+
+### Cite this article
+@ARTICLE{Georgescu-TPAMI-2021,
+  author={Georgescu, Mariana Iuliana and Ionescu, Radu and Khan, Fahad Shahbaz and Popescu, Marius and Shah, Mubarak},
+  journal={IEEE Transactions on Pattern Analysis and Machine Intelligence}, 
+  title={A Background-Agnostic Framework with Adversarial Training for Abnormal Event Detection in Video}, 
+  year={2021},
+  volume={},
+  number={},
+  pages={1-1},
+  doi={10.1109/TPAMI.2021.3074805}}
 
 
