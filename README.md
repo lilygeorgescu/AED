@@ -22,7 +22,7 @@ and motion-based binary classifiers to discriminate between normal and abnormal 
 This is the pipeline of our framework:
 ![pipeline](figs/Pipeline.png)
 
-Object reconstruction before and after adversarial training:
+Object reconstructions before and after adversarial training:
 ![rec](figs/Prelim.png)
 
 
