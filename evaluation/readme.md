@@ -10,7 +10,9 @@ where
 - ```tracks-path``` is the path to the folder containing the tracks for all videos.
     - The tracks are organized as follows:
         - for each video, we have a txt file containing all the regions with the following format:
+        
         [track_id, frame_id, x_min, y_min, x_max, y_max]
+        
         - the track_id must be in ascending order
 - ```anomalies-path``` is the path to the folder containing the detected anomaly regions for all videos.
     - The anomaly regions are organized as follows:
