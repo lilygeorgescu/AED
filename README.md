@@ -14,7 +14,7 @@ This is the official repository of "A Background-Agnostic Framework with Adversa
 SecurifAI’s NonCommercial Use & No Sharing International Public License. The details of this license are presented in SecurifAI-license-v1.0.pdf.
 
 ### Citation
-Please cite our work if you use any material released in this reop.
+Please cite our work if you use any material released in this repository.
 
 ```
 @ARTICLE{Georgescu-TPAMI-2021, 
