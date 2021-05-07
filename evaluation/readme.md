@@ -39,3 +39,17 @@ Under the following terms:
 
 ##### NoDerivatives — If you remix, transform, or build upon the material, you may not distribute the modified material.
 
+### Citation
+Please cite the following work, if you use this software:
+```
+@ARTICLE{Georgescu-TPAMI-2021, 
+  author={Georgescu, Mariana Iuliana and Ionescu, Radu and Khan, Fahad Shahbaz and Popescu, Marius and Shah, Mubarak}, 
+  journal={IEEE Transactions on Pattern Analysis and Machine Intelligence},  
+  title={A Background-Agnostic Framework with Adversarial Training for Abnormal Event Detection in Video}, 
+  year={2021},
+  volume={},
+  number={},
+  pages={1-1},
+  doi={10.1109/TPAMI.2021.3074805}}
+```
+
