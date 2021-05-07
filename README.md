@@ -9,7 +9,11 @@ This is the official repository of "A Background-Agnostic Framework with Adversa
 
 ### In order to receive our code fill in this [form](./SecurifAI-form-and-license-PAMI-2021.pdf) and send a copy to georgescu_lily@yahoo.com and raducu.ionescu@gmail.com
 
+### License
+SecurifAI’s NonCommercial Use & No Sharing International Public License. The details of this license are presented in SecurifAI-license-v1.0.pdf.
+
 ### This repo contains:
+ - the unofficial evaluation code for the new RBDC and TBDC metrics under the CC BY-NC-ND 4.0 license.
  - the track annotations for the ShanghaiTech Campus dataset (use the tracks to compute the new RBDC and TBDC metrics introduced in "Ramachandra Bharathkumar, Jones Michael, Street Scene: A new dataset and evaluation protocol for video anomaly detection, WACV 2020")
  - the region and track annotations for the Subway dataset. (use these to compute the pixel level AUC and the new RBDC and TBDC metrics introduced in "Ramachandra Bharathkumar, Jones Michael, Street Scene: A new dataset and evaluation protocol for video anomaly detection, WACV 2020")
  - annotated videos obtained using our abnormal event detection method. 
