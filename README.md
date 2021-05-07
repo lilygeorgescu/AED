@@ -18,7 +18,7 @@ Please cite our work if you use any material released in this repository.
 
 ```
 @ARTICLE{Georgescu-TPAMI-2021, 
-  author={Georgescu, Mariana Iuliana and Ionescu, Radu and Khan, Fahad Shahbaz and Popescu, Marius and Shah, Mubarak}, 
+  author={Georgescu, Mariana Iuliana and Ionescu, Radu Tudor and Khan, Fahad Shahbaz and Popescu, Marius and Shah, Mubarak}, 
   journal={IEEE Transactions on Pattern Analysis and Machine Intelligence},  
   title={A Background-Agnostic Framework with Adversarial Training for Abnormal Event Detection in Video}, 
   year={2021},
