@@ -13,10 +13,25 @@ This is the official repository of "A Background-Agnostic Framework with Adversa
 ### License
 SecurifAI’s NonCommercial Use & No Sharing International Public License. The details of this license are presented in SecurifAI-license-v1.0.pdf.
 
+### Citation
+Please cite our work if you use any material released in this reop.
+
+```
+@ARTICLE{Georgescu-TPAMI-2021, 
+  author={Georgescu, Mariana Iuliana and Ionescu, Radu and Khan, Fahad Shahbaz and Popescu, Marius and Shah, Mubarak}, 
+  journal={IEEE Transactions on Pattern Analysis and Machine Intelligence},  
+  title={A Background-Agnostic Framework with Adversarial Training for Abnormal Event Detection in Video}, 
+  year={2021},
+  volume={},
+  number={},
+  pages={1-1},
+  doi={10.1109/TPAMI.2021.3074805}}
+```
+
 ### This repo contains: 
  - the form that must be filled in order to obtain our source code.
- - the track annotations for the ShanghaiTech Campus dataset (use the tracks to compute the new RBDC and TBDC metrics introduced in "Ramachandra Bharathkumar, Jones Michael, Street Scene: A new dataset and evaluation protocol for video anomaly detection, WACV 2020").
- - the region and track annotations for the Subway dataset (use these to compute the pixel level AUC and the new RBDC and TBDC metrics introduced in "Ramachandra Bharathkumar, Jones Michael. Street Scene: A new dataset and evaluation protocol for video anomaly detection. WACV, 2020").
+ - the track annotations for the ShanghaiTech Campus dataset under the CC BY-NC-ND 4.0 license (use the tracks to compute the new RBDC and TBDC metrics introduced in "Ramachandra Bharathkumar, Jones Michael, Street Scene: A new dataset and evaluation protocol for video anomaly detection, WACV 2020").
+ - the region and track annotations for the Subway dataset under the CC BY-NC-ND 4.0 license (use these to compute the pixel level AUC and the new RBDC and TBDC metrics introduced in "Ramachandra Bharathkumar, Jones Michael. Street Scene: A new dataset and evaluation protocol for video anomaly detection. WACV, 2020").
  - annotated videos obtained using our abnormal event detection method. 
  - the unofficial evaluation code for the new RBDC and TBDC metrics under the CC BY-NC-ND 4.0 license.
 
@@ -35,18 +50,3 @@ This is the pipeline of our framework:
 
 Object reconstructions before and after adversarial training:
 ![rec](figs/Prelim.png)
-
-
-### Citation
-```
-@ARTICLE{Georgescu-TPAMI-2021, 
-  author={Georgescu, Mariana Iuliana and Ionescu, Radu and Khan, Fahad Shahbaz and Popescu, Marius and Shah, Mubarak}, 
-  journal={IEEE Transactions on Pattern Analysis and Machine Intelligence},  
-  title={A Background-Agnostic Framework with Adversarial Training for Abnormal Event Detection in Video}, 
-  year={2021},
-  volume={},
-  number={},
-  pages={1-1},
-  doi={10.1109/TPAMI.2021.3074805}}
-```
-
