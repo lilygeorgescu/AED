@@ -1,11 +1,12 @@
 ## A Background-Agnostic Framework with Adversarial Training for Abnormal Event Detection in Video
 Mariana-Iuliana Georgescu, Radu Tudor Ionescu, Fahad Shahbaz Khan, Marius Popescu and Mubarak Shah.
-IEEE Transactions on Pattern Analysis and Machine Intelligence, 2021
+IEEE Transactions on Pattern Analysis and Machine Intelligence, 2021.
 
-Arxiv URL: https://arxiv.org/abs/2008.12328
+Official URL: https://ieeexplore.ieee.org/document/9410375
+
+ArXiv URL: https://arxiv.org/abs/2008.12328
 
 This is the official repository of "A Background-Agnostic Framework with Adversarial Training for Abnormal Event Detection in Video".
-
 
 ### In order to receive our code fill in this [form](./SecurifAI-form-and-license-PAMI-2021.pdf) and send a copy to georgescu_lily@yahoo.com and raducu.ionescu@gmail.com
 
@@ -13,9 +14,9 @@ This is the official repository of "A Background-Agnostic Framework with Adversa
 SecurifAI’s NonCommercial Use & No Sharing International Public License. The details of this license are presented in SecurifAI-license-v1.0.pdf.
 
 ### This repo contains: 
- - the form that must be fill in order to obtain our code.
+ - the form that must be filled in order to obtain our source code.
  - the track annotations for the ShanghaiTech Campus dataset (use the tracks to compute the new RBDC and TBDC metrics introduced in "Ramachandra Bharathkumar, Jones Michael, Street Scene: A new dataset and evaluation protocol for video anomaly detection, WACV 2020").
- - the region and track annotations for the Subway dataset. (use these to compute the pixel level AUC and the new RBDC and TBDC metrics introduced in "Ramachandra Bharathkumar, Jones Michael, Street Scene: A new dataset and evaluation protocol for video anomaly detection, WACV 2020").
+ - the region and track annotations for the Subway dataset (use these to compute the pixel level AUC and the new RBDC and TBDC metrics introduced in "Ramachandra Bharathkumar, Jones Michael. Street Scene: A new dataset and evaluation protocol for video anomaly detection. WACV, 2020").
  - annotated videos obtained using our abnormal event detection method. 
  - the unofficial evaluation code for the new RBDC and TBDC metrics under the CC BY-NC-ND 4.0 license.
 
