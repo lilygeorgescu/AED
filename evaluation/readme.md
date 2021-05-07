@@ -1,4 +1,4 @@
-## Code for computing the new TBDC and RBDC metrics introduced metrics introduced in "Ramachandra Bharathkumar, Jones Michael, Street Scene: A new dataset and evaluation protocol for video anomaly detection, WACV 2020"
+## Code for computing the new TBDC and RBDC metrics introduced in "Ramachandra Bharathkumar, Jones Michael, Street Scene: A new dataset and evaluation protocol for video anomaly detection, WACV 2020"
 
 This is the unofficial implementation of the TBDC and RBDC metrics. We follow the instructions given in this paper "Ramachandra Bharathkumar, Jones Michael, Street Scene: A new dataset and evaluation protocol for video anomaly detection, WACV 2020" to implement these metrics.
 
