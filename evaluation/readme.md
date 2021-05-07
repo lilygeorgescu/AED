@@ -11,13 +11,14 @@ where
     - The tracks are organized as follows:
         - for each video, we have a txt file containing all the regions with the following format:
         
-        [track_id, frame_id, x_min, y_min, x_max, y_max]
+            [track_id, frame_id, x_min, y_min, x_max, y_max]
         
         - the track_id must be in ascending order
 - ```anomalies-path``` is the path to the folder containing the detected anomaly regions for all videos.
     - The anomaly regions are organized as follows:
         - for each video, we have a txt file containing all the detected regions with the following format:
-        [frame_id, x_min, y_min, x_max, y_max, anomaly_score] 
+        
+            [frame_id, x_min, y_min, x_max, y_max, anomaly_score] 
 - ```num-frames``` is the total number of frames in the videos.
 - The name of the video tracks must match the name of the detected region per video.
 
