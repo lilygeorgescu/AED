@@ -31,7 +31,7 @@ Please cite our work if you use any material released in this repository.
 ### This repo contains: 
  - the form that must be filled in order to obtain our source code.
  - the track annotations for the ShanghaiTech Campus dataset, released under the CC BY-NC-ND 4.0 license (use the tracks to compute the new RBDC and TBDC metrics introduced in "Ramachandra Bharathkumar, Jones Michael. Street Scene: A new dataset and evaluation protocol for video anomaly detection. WACV, 2020").
- - the region and track annotations for the Subway dataset, released under the CC BY-NC-ND 4.0 license (use the annotations to compute the pixel level AUC and the new RBDC and TBDC metrics introduced in "Ramachandra Bharathkumar, Jones Michael. Street Scene: A new dataset and evaluation protocol for video anomaly detection. WACV, 2020").
+ - the region and track annotations for the Subway dataset, released under the CC BY-NC-ND 4.0 license (use the annotations to compute the pixel-level AUC and the new RBDC and TBDC metrics introduced in "Ramachandra Bharathkumar, Jones Michael. Street Scene: A new dataset and evaluation protocol for video anomaly detection. WACV, 2020").
  - annotated videos obtained using our abnormal event detection method. 
  - the unofficial evaluation code for the new RBDC and TBDC metrics, released under the CC BY-NC-ND 4.0 license.
 
