@@ -5,16 +5,16 @@
 
 """
 How to run:
-    python compute_tbdc_rbdc.py --tracks-path=toy_tracks --anomalies-path=toy_anomalies --num-frames=5
+    python compute_tbdc_rbdc.py --tracks-path=toy_tracks --anomalies-path=toy_anomalies --num-frames=10
 """
 
-import os
-
-import numpy as np
-from sklearn import metrics
 import argparse
+import os
+import pdb
 
 import matplotlib.pyplot as plt
+import numpy as np
+from sklearn import metrics
 
 
 class ContinuousTrack:
@@ -142,10 +142,10 @@ def compute_fpr_rbdr(pred_anomalies_detected: [Region], gt_anomalies: [Region], 
 
     if fpr[idx_1 - 1] != 1:
         print('fpr does not reach 1')
-        rbdr = np.concatenate((rbdr, [rbdr[-1]]))
-        tbdr = np.concatenate((tbdr, [tbdr[-1]]))
-        fpr = np.concatenate((fpr, [1]))
-        idx_1 = len(fpr)
+        rbdr = np.insert(rbdr, idx_1, rbdr[idx_1 - 1])
+        tbdr = np.insert(tbdr, idx_1, tbdr[idx_1 - 1])
+        fpr = np.insert(fpr, idx_1, 1)
+        idx_1 += 1
 
     tbdc = metrics.auc(fpr[:idx_1], tbdr[:idx_1])
     rbdc = metrics.auc(fpr[:idx_1], rbdr[:idx_1])
