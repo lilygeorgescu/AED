@@ -35,7 +35,7 @@ Please cite our work if you use any material released in this repository.
  - annotated videos obtained using our abnormal event detection method. 
  - the unofficial evaluation code for the new RBDC and TBDC metrics from: 
 
-## Street Scene: A new dataset and evaluation protocol for video anomaly detection,
+#### Street Scene: A new dataset and evaluation protocol for video anomaly detection,
 released under the CC BY-NC-ND 4.0 license.
 
 ### Pseudo-abnormal data set for appearance AE
